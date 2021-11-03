@@ -1,6 +1,6 @@
-# NBA <img src="https://thelab.bleacherreport.com/nbaemoji/img/emoji/large/ChampionshipTrohpy.png" height=150>
+# NBA <img src="https://trendbasket.net/wp-content/uploads/NBA.png" height=24>
 
-##API
+## API
 * https://www.balldontlie.io
 
 ## Techs
@@ -14,9 +14,9 @@
 * Kotlin Coroutines
 
 ## Screenshoots
-<img src="" height=400>
+<img src="https://github.com/emresahin10/NBA/blob/master/Art/ss1.png?raw=true" height=600><img src="https://github.com/emresahin10/NBA/blob/master/Art/ss2.png?raw=true" height=600>
+
+<img src="https://github.com/emresahin10/NBA/blob/master/Art/ss3.png?raw=true" height=600> <img src="https://github.com/emresahin10/NBA/blob/master/Art/ss4.png?raw=true" height=600>
  
- 
- ## Video
 
 
