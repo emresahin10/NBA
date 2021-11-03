@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/item_teams">
+    <fragment
+        android:id="@+id/item_teams"
+        android:name="com.denbase.nba.teams.TeamsFragment"
+        android:label="@string/teams"
+        tools:layout="@layout/fragment_teams" >
+        <action
+            android:id="@+id/action_item_teams_to_teamsDetailFragment"
+            app:destination="@id/teamsDetailFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="1"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_players"
+        android:name="com.denbase.nba.players.PlayersFragment"
+        android:label="@string/players"
+        tools:layout="@layout/fragment_players" >
+        <action
+            android:id="@+id/action_item_players_to_playersDetailFragment"
+            app:destination="@id/playersDetailFragment" />
+        <argument
+            android:name="playerId"
+            app:argType="integer"
+            android:defaultValue="1"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_fav"
+        android:name="com.denbase.nba.favorites.FavoritesFragment"
+        android:label="@string/favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/playersDetailFragment"
+        android:name="com.denbase.nba.players.PlayersDetailFragment"
+        android:label="Player Detail"
+        tools:layout="@layout/fragment_players_detail" />
+    <fragment
+        android:id="@+id/teamsDetailFragment"
+        android:name="com.denbase.nba.teams.TeamsDetailFragment"
+        android:label="Team Detail"
+        tools:layout="@layout/fragment_teams_detail" />
+
+</navigation>
